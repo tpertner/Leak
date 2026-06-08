@@ -1,0 +1,30 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Internal / unpublished
+internal/
+*_INTERNAL*
+*_DRAFT*
+*_PRIVATE*
+
+# Python (if tooling is added in future versions)
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+venv/
+
+# Node (if harness tooling is added)
+node_modules/
+npm-debug.log
+
+# Build artifacts
+dist/
+*.log

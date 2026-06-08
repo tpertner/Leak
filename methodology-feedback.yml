@@ -1,0 +1,61 @@
+name: Methodology Feedback
+description: Report a scoring calibration issue, surface definition gap, or logical inconsistency in the framework.
+title: "[Methodology] "
+labels: ["methodology"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve Leak™. Methodology discussions benefit from open review — please be specific and cite observed behavior over intuition.
+
+  - type: dropdown
+    id: issue-type
+    attributes:
+      label: Type of issue
+      options:
+        - Scoring calibration (a pair scores ambiguously on the 0–4 ladder)
+        - Surface definition gap (a surface is unclear, overlapping, or incomplete)
+        - Logical inconsistency (something contradicts itself across the docs)
+        - CII / Risk Band logic
+        - Documentation clarity
+        - Other
+    validations:
+      required: true
+
+  - type: dropdown
+    id: surface
+    attributes:
+      label: Surface affected
+      options:
+        - Tool Permission
+        - Authority & Influence
+        - Context
+        - Constraint
+        - Iterative Pressure
+        - Not surface-specific
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What's the issue, and why does it matter?
+    validations:
+      required: true
+
+  - type: textarea
+    id: example
+    attributes:
+      label: Concrete example
+      description: A prompt pair, a scored response, or a specific passage that demonstrates the issue. Specifics beat abstractions.
+    validations:
+      required: false
+
+  - type: textarea
+    id: proposed
+    attributes:
+      label: Proposed change
+      description: If you have a fix in mind, describe it.
+    validations:
+      required: false
