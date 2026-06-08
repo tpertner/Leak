@@ -4,7 +4,7 @@
 [![Version](https://img.shields.io/badge/version-0.1-blue.svg)](#current-status-v01--pre-pilot)
 [![Status](https://img.shields.io/badge/status-pre--pilot-yellow.svg)](#current-status-v01--pre-pilot)
 
-**Leak™ — behavioral constraint testing for AI agents. Finding drips before puddles form.**
+**Leak™ — behavioral constraint testing for AI agents. Find your drips before the puddle forms.**
 
 ---
 
