@@ -1,7 +1,7 @@
 blank_issues_enabled: false
 contact_links:
   - name: Report potentially harmful content (private)
-    url: https://github.com/tpertner/leak/security/advisories/new
+    url: https://github.com/tpertner/Leak/security/advisories/new
     about: Do NOT open a public issue for content that could enable harm. Use a private Security Advisory instead.
   - name: Harness / runner / scoring code
     url: https://github.com/tpertner/confess
